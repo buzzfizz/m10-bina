@@ -16,6 +16,10 @@ $(document).ready(function(){
         return false;
     });
 
+    if($('#menu').length){
+        $('#menu').slicknav();
+    }
+
     if($('div.owl-carousel').length){
         $(".owl-carousel").owlCarousel({
             items: 4,

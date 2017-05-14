@@ -17,8 +17,9 @@
     <link rel="stylesheet" href="./css/owl.carousel.css">
     <link rel="stylesheet" href="./css/owl.theme.default.css">
     <link rel="stylesheet" href="./css/camera.css">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/slicknav.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,7 +27,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body style="font-family: 'Play', sans-serif;">
+  <body>
     <div id="top-logo">
         <div class="container logo-container">
             <img class="logo" src="./img/m10-logo-v1.png" alt="m10 logo">
@@ -74,12 +75,16 @@
         <nav class="navbar navbar-default" style="margin-bottom: 0!important; background-color: #730102; height: 80px;margin-top: -10px;border-radius: 0; border-color:transparent; box-shadow: 0 3px 5px rgba(0,0,0,0.3);">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                    <div class="container">
+                        <form id="mobile-search" action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search.." style="border-radius: 0!important;">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit" style="border-radius: 0!important;"><i class="glyphicon glyphicon-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav" style="margin-top: 15px;">
@@ -105,6 +110,15 @@
         </nav>
 
     </div>
+     <!--mobile navbar-->
+    <ul id="menu">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
     <!--end of navbar-->
 
     <section id="about-front" style="text-align: center; padding: 100px 0">
@@ -273,6 +287,7 @@
     <script src="./js/jquery.mobile.customized.js"></script>
     <script src="./js/camera.js"></script>
     <script src="./js/wow.js"></script>
+    <script src="./js/jquery.slicknav.js"></script>
     <script src="./js/script.js"></script>
 
   </body>
