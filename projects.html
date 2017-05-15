@@ -25,7 +25,14 @@
 <body>
 <div id="top-logo">
     <div class="container logo-container">
-        <img class="logo" src="./img/m10-logo-v1.png" alt="m10 logo">
+        <div class="col-sm-3" style="text-align: center">
+            <img class="logo" src="./img/m10-logo-v1.png" alt="m10 logo">
+        </div>
+        <div class="col-sm-9" style="text-align: center">
+            <div class="top-logo-tel">
+                Tel: +603 51215198
+            </div>
+        </div>
     </div>
 </div>
 
@@ -35,20 +42,24 @@
     <nav class="navbar navbar-default" style="margin-bottom: 0!important; background-color: #730102; height: 80px;margin-top: -10px;border-radius: 0; border-color:transparent; box-shadow: 0 3px 5px rgba(0,0,0,0.3);">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                <div class="container">
+                    <form id="mobile-search" action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search.." style="border-radius: 0!important;">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit" style="border-radius: 0!important;"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav" style="margin-top: 15px;">
-                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="facilities.html">Facilities</a></li>
-                    <li class="active"><a href="projects.html">Projects</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
                 <div class="col-sm-3 pull-right" style="margin-top: 25px;">
@@ -64,7 +75,17 @@
             </div><!--/.nav-collapse -->
         </div>
     </nav>
+
 </div>
+<!--mobile navbar-->
+<ul id="menu">
+    <li class="active"><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="facilities.html">Facilities</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+</ul>
 <!--end of navbar-->
 <div class="container" style="padding-bottom: 50px;">
     <div  class="center-block" style="padding: 50px 0">
@@ -265,19 +286,8 @@
                 © 2013 M-10 BUILDERS SDN. BHD.<br>
                 All Rights Reserved
             </div>
-            <div class="col-sm-4">
-                <h2>Contact Us</h2>
-                <div>
-                    Tel: +603 51215198
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <h2>
-                    Get In Touch
-                </h2>
-                <div>
-                    <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
-                </div>
+            <div class="col-sm-8">
+                <img style="width: 100%;" src="./img/footer.png" alt="">
             </div>
         </div>
     </div>
