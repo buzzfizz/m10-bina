@@ -17,6 +17,7 @@
     <!--<link rel="stylesheet" href="./css/owl.theme.default.css">-->
     <link rel="stylesheet" href="./css/slicknav.css">
     <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
     <link rel="stylesheet" href="./css/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,18 +27,43 @@
     <![endif]-->
 </head>
 <body>
+<div id="social-top" style="background-color:black;">
+    <div class="container">
+        <div class="pull-left" style="color: white;">
+            SITEMAP | PRIVACY POLICY | FAQ
+        </div>
+        <div class="pull-right" style="color: white">
+            <a href="#">
+                <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<!--<div id="top-logo">-->
+    <!--<div class="container logo-container">-->
+        <!--<div class="col-sm-3" style="text-align: center">-->
+            <!--<img class="logo" src="./img/m10-logo-v1.png" alt="m10 logo">-->
+        <!--</div>-->
+        <!--<div class="col-sm-9" style="text-align: center">-->
+            <!--<div class="top-logo-tel">-->
+                <!--Tel: +603 51215198-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
 <div id="top-logo">
     <div class="container logo-container">
-        <div class="col-sm-3" style="text-align: center">
+        <div class="pull-left cancel-pull-xs" style="text-align: center">
             <img class="logo" src="./img/m10-logo-v1.png" alt="m10 logo">
         </div>
-        <div class="col-sm-9" style="text-align: center">
-            <div class="top-logo-tel">
+        <div class="pull-right top-logo-tel" style="text-align: center">
+            <div class="">
                 Tel: +603 51215198
             </div>
         </div>
     </div>
 </div>
+
 
 <div class="header-image"></div>
 <!--navbar-->
@@ -58,7 +84,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li class="active"><a href="services.html">Services</a></li>
                     <li><a href="facilities.html">Facilities</a></li>
@@ -95,46 +121,129 @@
     <div class="center-block" style="padding: 50px 0">
         <h1 style="text-align: center">Our Services</h1>
     </div>
-    <div class="wow fadeInUpSmall col-sm-6">
-        <h2 style="text-align: center">Steel Fabrication</h2>
-        <div style="text-align: justify">
-            M-IO Builders are leaders in the steel structure industry with experience more than two decades.
-            With a high amount of high profile projects, we are known for our capabilities to provide high quality steel fabrication services.
-            <br>
-            <br>
-            Our state of art fabrication system and machines,
-            working in tandem with our highly skilled staff,
-            are able to produce any form and type of steel structure ranging from standard steel member structure to architectural structures regardless of the complexity.
+
+    <div class="wow fadeInUpSmall col-sm-3">
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a data-toggle="tab" href="#steel-fabrication">Steel Fabrication</a></li>
+            <li><a data-toggle="tab" href="#steel-erection">Steel Erection</a></li>
+            <li><a data-toggle="tab" href="#project-management">Project Management</a></li>
+            <li><a data-toggle="tab" href="#engineering">Design & Value Engineering</a></li>
+        </ul>
+    </div>
+
+    <div class="wow fadeInUpSmall col-sm-9">
+        <div class="tab-content">
+            <div id="steel-fabrication" class="tab-pane fade in active">
+                <h2 style="text-align: center; margin-top: 0;">Steel Fabrication</h2>
+                <div style="text-align: justify">
+                    M-IO Builders are leaders in the steel structure industry with experience more than two decades.
+                    With a high amount of high profile projects, we are known for our capabilities to provide high quality steel fabrication services.
+                    <br>
+                    <br>
+                    Our state of art fabrication system and machines,
+                    working in tandem with our highly skilled staff,
+                    are able to produce any form and type of steel structure ranging from standard steel member structure to architectural structures regardless of the complexity.
+                </div>
+            </div>
+            <div id="engineering" class="tab-pane fade in">
+                <h2 style="text-align: center; margin-top: 0">Design & Value Engineering</h2>
+                <div style="text-align: justify">
+                    For over two decades, we have provided unrivaled technical services globally.
+                    Our suite of services include end to end solutions from project management, engineering design, steel fabrication and erection.
+                    We ensure that the development and execution of a project will go smoothly and without unnecessary delay.
+                    We also continually keep ourselves  abreast with the constantly changing global regulatory requirements.
+                </div>
+            </div>
+            <div id="project-management" class="tab-pane fade in">
+                <h2 style="text-align: center; margin-top: 0">Project Management</h2>
+                <div style="text-align: justify">
+                    For over two decades, we have provided unrivaled technical services globally.
+                    Our suite of services include end to end solutions from project management, engineering design, steel fabrication and erection.
+                    We ensure that the development and execution of a project will go smoothly and without unnecessary delay.
+                    We also continually keep ourselves  abreast with the constantly changing global regulatory requirements.
+                </div>
+            </div>
+            <div id="steel-erection" class="tab-pane fade in">
+                <h2 style="text-align: center; margin-top: 0">Steel Erection</h2>
+                <div style="text-align: justify">
+                    For over two decades, we have provided unrivaled technical services globally.
+                    Our suite of services include end to end solutions from project management, engineering design, steel fabrication and erection.
+                    We ensure that the development and execution of a project will go smoothly and without unnecessary delay.
+                    We also continually keep ourselves  abreast with the constantly changing global regulatory requirements.
+                </div>
+            </div>
         </div>
     </div>
-    <div class="wow fadeInUpSmall col-sm-6">
-        <h2 style="text-align: center">Engineering</h2>
-        <div style="text-align: justify">
-            For over two decades, we have provided unrivaled technical services globally.
-            Our suite of services include end to end solutions from project management, engineering design, steel fabrication and erection.
-            We ensure that the development and execution of a project will go smoothly and without unnecessary delay.
-            We also continually keep ourselves  abreast with the constantly changing global regulatory requirements.
-        </div>
-    </div>
+
+    <!--<div class="wow fadeInUpSmall col-sm-6">-->
+        <!--<h2 style="text-align: center">Steel Fabrication</h2>-->
+        <!--<div style="text-align: justify">-->
+            <!--M-IO Builders are leaders in the steel structure industry with experience more than two decades.-->
+            <!--With a high amount of high profile projects, we are known for our capabilities to provide high quality steel fabrication services.-->
+            <!--<br>-->
+            <!--<br>-->
+            <!--Our state of art fabrication system and machines,-->
+            <!--working in tandem with our highly skilled staff,-->
+            <!--are able to produce any form and type of steel structure ranging from standard steel member structure to architectural structures regardless of the complexity.-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="wow fadeInUpSmall col-sm-6">-->
+        <!--<h2 style="text-align: center">Engineering</h2>-->
+        <!--<div style="text-align: justify">-->
+            <!--For over two decades, we have provided unrivaled technical services globally.-->
+            <!--Our suite of services include end to end solutions from project management, engineering design, steel fabrication and erection.-->
+            <!--We ensure that the development and execution of a project will go smoothly and without unnecessary delay.-->
+            <!--We also continually keep ourselves  abreast with the constantly changing global regulatory requirements.-->
+        <!--</div>-->
+    <!--</div>-->
 
 </div>
 
 
 <section id="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-4" style="padding-top: 20px;">
-                <a href="index.html">Home</a> |
-                <a href="about.html">About Us</a> |
-                <a href="projects.html">Projects</a> |
-                <a href="services.html">Services</a> |
-                <a href="facilities.html">Facilities</a> |
-                <a href="contact.html">Contact Us</a> <br>
-                © 2013 M-10 BUILDERS SDN. BHD.<br>
-                All Rights Reserved
+        <div class="row" style="padding-top: 20px;">
+            <div id="footer-1" class="col-sm-3">
+                <h4 style="font-weight: bolder; margin-bottom: -10px;">M10 BUILDERS SDN. BHD.</h4> <br>
+                <span style="color: red">© 2017</span> | All Rights Reserved
             </div>
-            <div class="col-sm-8">
-                <img style="width: 100%;" src="./img/footer.png" alt="">
+
+
+            <div id="footer-2" class="col-sm-3">
+                <h4 style="font-weight: bolder">Get In Touch</h4>
+                <hr>
+                <div>
+                    Telephone number: +603 5121 5189
+                    ​<br>
+                    Fax: +603 5121 8524
+                    ​<br>
+                    Contact person: Ms. Nadia Mydin
+                    ​<br>
+                    Email: nadia@m10builders.com
+                </div>
+            </div>
+
+
+            <div id="footer-3" class="col-sm-6">
+                <h4 style="font-weight: bolder">License & Registration</h4>
+                <hr>
+
+                <div class="col-sm-4 col-xs-4" style="text-align: center">
+                    <img style="width: 66%" src="./img/standardpng.png" alt="">
+                    <div class="iso">
+                        MS ISO/IEC 17021: 2011 <br>
+                        QS 02032013 CB 13
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-4" style="text-align: center">
+                    <img style="width: 63%" src="./img/iafpng.png" alt="">
+                    <div class="iso">
+                        ISO 9001: 2015
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-4">
+                    <img style="width: 100%" src="./img/cidb.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -151,5 +260,11 @@
 <script src="./js/jquery.slicknav.js"></script>
 <script src="./js/wow.js"></script>
 <script src="./js/script.js"></script>
+<script>
+    $(document).ready(function(){
+        var hash = window.location.hash;
+        hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    });
+</script>
 </body>
 </html>
