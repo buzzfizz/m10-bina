@@ -75,8 +75,11 @@ body{
 .logo{
     height: 115px;
     width: 204px;
-    padding: 20px;
+    /*padding: 20px;*/
     background: white;
+    box-shadow: 0px 8px 20px 0px black;
+    -moz-box-shadow: 0px 8px 20px 0px black;
+    -webkit-box-shadow: 0px 8px 20px 0px black;
 }
 
 #top-slider{
@@ -387,6 +390,15 @@ body{
 
 /*end arrow*/
 
+/*affix*/
+.affix {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    margin: 0!important;
+}
+
+
 @media screen and (max-width: 991px) {
     .camera_caption p{
         padding-top: 20px;
@@ -439,7 +451,7 @@ body{
     }
 
     #mobile-search{
-        ma
+
     }
 
 
